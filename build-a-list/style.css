@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  font-family: arial;
+}
+
+main {
+  display: flex;
+  gap: 2ch;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+header {
+  background-color: darkcyan;
+  padding: 1rem;
+  color: white;
+}
+
+.list-area {
+  border: 2px solid darkcyan;
+  padding: 2ch;
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+}
+
+.user-list {
+  background-color: darkcyan;
+  color: white;
+  min-height: 8rem;
+}
