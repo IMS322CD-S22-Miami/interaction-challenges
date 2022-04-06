@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+
+  <title>Document</title>
+</head>
+<body>
+  <header><h1>Active/Inactive</h1></header>
+  <main>
+    <div class="button-container">
+      <button class="button active">One</button>
+      <button class="button inactive">Two</button>
+      <button class="button inactive">Three</button>
+    </div>
+    <div class="instructions">
+      <ul>
+        <li>Create 3 buttons. Make the first one look active by default.</li>
+        <li>Give only the inactive buttons a hover effect.</li>
+        <li>Click any button should make that button active and all ther buttons inactive.</li>
+      </ul>
+      <br>
+      <p>Suggested approach:</p>
+      <ul>
+        <li>Use active/inactive classes - remember that HTML elements can have multiple classes if needed.</li>
+        <li>Use the classList.toggle method to add/remove active/inactive status.</li>
+        <li>Don't forget about the :hover pseudo-class.</li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
